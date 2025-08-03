@@ -29,3 +29,4 @@ spec:
              - pod-1
   containers:
   - name: pod-2
+    image: nginx
