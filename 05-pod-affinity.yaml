@@ -20,13 +20,13 @@ metadata:
 spec:
   affinity:
     podAffinity:
-       requiredDuringSchedulingIgnoredDuringExecution:
-       - labelSelector:
-           matchExpressions:
-           - key: app-nameee
-             operator: In
-             values:
-             - pod-1
+      requiredDuringSchedulingIgnoredDuringExecution:
+      - labelSelector:
+          matchExpressions:
+          - key: app-nameee
+            operator: In
+            values:
+            - pod-1
   containers:
   - name: pod-2
     image: nginx
