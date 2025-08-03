@@ -12,7 +12,6 @@ spec:
       operator: In
       values:
       - gpu
-      - gpu
   containers:
   - name: with-node-affinity
     image: nginx
